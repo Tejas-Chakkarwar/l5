@@ -1,11 +1,10 @@
 # l5
 HPC Practicals
 For running openmp programs run commands:-
-g++ filename.cpp -fopenmp and ./a.exe [for windows users] or ./a.out [for linux users]
-
-Make sure MinGW is installed with pthreads.
-
-If you still get errors try running: mingw-get upgrade --recursive "gcc<4.7.*" "gcc-g++<4.7.*"
+To execute: go to file path and open terminal and enter
+g++ -fopenmp filename.cpp -o filename
+hit enter and again type
+./filename
 
 To run CUDA programs on Collab, follow these steps:
 Go to Google Collab
